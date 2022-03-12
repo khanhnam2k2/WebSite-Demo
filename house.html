@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="./images/logo-red.png" class="logo"alt="">
+        </a>
+        
+        
+        <div class="nav-menu" id="navMenu">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="listing.html" class="active">Popular Places</a></li>
+                <li><a href="#">Travel Outside</a></li>
+                <li><a href="#">Online Packages</a></li>
+ 
+            </ul>
+        </div>            
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="hosuse-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+               <div class="">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>245 Reviews</span>
+               </div>
+               <div class="">
+                   <p>Location: San Franciso, California, United States</p>
+               </div>
+            </div>
+
+            <div class="gallery">
+                <div class="g-1" >
+                    <img src="./images/house-1.png" alt="">
+                </div>
+                <div>
+                    <img src="./images/house-2.png" alt="">
+                </div>
+                <div >
+                    <img src="./images/house-3.png" alt="">
+                </div>
+                <div >
+                    <img src="./images/house-4.png" alt="">
+                </div>
+                <div >
+                    <img src="./images/house-5.png" alt="">
+                </div>
+            </div>
+            <div class="small-detalis">
+                <h2>Entire retal unit hosted by Bradon</h2>
+                <p>2 guest &nbsp; &nbsp; 2 beds &nbsp;&nbsp; 1 bathroom</p>
+                <h4>$100 / day</h4>
+            </div>
+            <hr class="line">
+        </div>
+
+        <form class="check-form">
+            <div class="">
+                <label>Check in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="">
+                <label>Check out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 guests">
+            </div>
+            <button type="submit">Check Availablity</button>
+        </form>
+
+        <ul class="detalis-list">
+            <li><i class="fas fa-home"></i>Entire Home
+                <span>You will have the entire flat for you</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i>Entire Home
+                <span>You will have the entire flat for you</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Entire Home
+                <span>You will have the entire flat for you</span>
+            </li>
+            <li><i class="fas fa-heart"></i>Entire Home
+                <span>You will have the entire flat for you</span>
+            </li>
+
+        </ul>
+        <hr class="line">
+        <p class="home-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dignissimos ex exercitationem est vel minus debitis at vitae impedit quasi quisquam possimus quis incidunt, ab non asperiores provident. Excepturi, alias?
+            Voluptatem aspernatur, neque, veritatis ullam totam qui cumque, amet voluptatum recusandae quisquam impedit debitis eius natus obcaecati corporis? Architecto, perspiciatis cum itaque quidem illum libero soluta molestias quos distinctio animi!
+        </p>
+        <hr class="line">
+        <div class="location">
+            <h3>Location on map</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1893.3561247926616!2d105.87944226738044!3d18.360407462079593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31384e7baf16ae3d%3A0x5b07b1df4c3be38b!2zTMOqIFRoaeG7h3UgSHV5LCBUaOG6oWNoIFRydW5nLCBUcC4gSMOgIFTEqW5oLCBIw6AgVMSpbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1646720979773!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <b>San Francisco, California, United States</b>
+            <p>It's like a home away from home</p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="./images/host.png" alt="">
+            <div class="host-info">
+                <h2>Host by Brandon</h2>
+                <p><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>&nbsp;&nbsp;245 reviews &nbsp;&nbsp; Respone rate 100% &nbsp;&nbsp;Response: 60mins </p>
+            </div>
+        </div>
+        <a href="#" class="contact">Contact host</a>
+
+        <div class="container">
+            <div class="footer">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <hr>
+                <p>Copyright 2021 Easy Tutorials</p>
+            </div>
+        </div>
+
+    </div>
+  
+    
+    
+</body>
+<script>
+    var navMenu = document.getElementById("navMenu")
+    function showMenu(){
+        navMenu.style.right="0"
+    }
+    function hideMenu(){
+        navMenu.style.right="-200px"
+    }
+</script>
+</html>
